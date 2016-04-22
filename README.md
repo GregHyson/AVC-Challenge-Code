@@ -1,3 +1,7 @@
 # AVC-Challenge-Code
-Name says it all really.
-This is where all of our code is going. Good fun.
+Members : Gregory Hyson, Olivia Stephens, Joe Tildeslay, D'Arcy Kameta, Sun Kameta.
+
+Handy links : https://github.com/kaiwhata/ENGR101-2016
+
+
+
