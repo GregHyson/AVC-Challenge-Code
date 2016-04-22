@@ -1,0 +1,17 @@
+// Welcome to the lovely world of COPY PASTE.
+
+# include < time .h >
+
+extern "C" int InitHardware ();
+extern "C" int Sleep ( int sec , int usec );
+extern "C" int SetMotor ( int motor , int dir , int speed );
+
+int main (){
+
+InitHardware ();
+SetMotor (1 , 1, 255);
+Sleep (0 ,500000);
+SetMotor (1 , 2, 127);
+Sleep (0 ,500000);
+
+return 0;}
