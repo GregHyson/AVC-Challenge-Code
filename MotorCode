@@ -1,5 +1,7 @@
 // Welcome to the lovely world of COPY PASTE.
 
+
+# include < stdio .h >
 # include < time .h >
 
 extern "C" int InitHardware ();
