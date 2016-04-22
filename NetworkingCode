@@ -1,2 +1,20 @@
 #Networking Code
 
+#include <stdio.h>
+#include <time.h>
+
+extern "C" int init (int d_lev);
+extern "C" int connect_to_server ( String server_addr[], int port);
+extern "C" int send_to_server (char message[]);
+extern "C" int recieve_from_server (char message[]);
+
+int main(){
+
+init(1);
+connect_to_server(130.195.6.196, 1024);
+send_to_server("Hello server");
+String message[1024];
+message[24] = recieve from server("my-password");
+
+return 0;
+}
