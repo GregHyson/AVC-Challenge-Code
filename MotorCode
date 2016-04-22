@@ -4,16 +4,17 @@
 # include < stdio .h >
 # include < time .h >
 
-extern "C" int InitHardware ();
-extern "C" int Sleep ( int sec , int usec );
-extern "C" int SetMotor ( int motor , int dir , int speed );
+extern "C" int init(int d_lev);
+extern "C" int sleep( int sec , int usec );
+extern "C" int set_motor( int motor , int dir , int speed );
 
 int main (){
 
-InitHardware ();
-SetMotor (1 , 2, 100);
-Sleep (0 ,5);
-SetMotor (1 , 2, 100);
-Sleep (0 ,5);
+init ();
+set_motor (1 , 2, 100);
+sleep (0 ,5);
+set_motor (1 , 2, 100);
+sleep (0 ,5);
 
-return 0;}
+return 0;
+}
