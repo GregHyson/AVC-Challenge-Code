@@ -11,9 +11,9 @@ extern "C" int SetMotor ( int motor , int dir , int speed );
 int main (){
 
 InitHardware ();
-SetMotor (1 , 1, 255);
-Sleep (0 ,500000);
-SetMotor (1 , 2, 127);
-Sleep (0 ,500000);
+SetMotor (1 , 2, 100);
+Sleep (0 ,5);
+SetMotor (1 , 2, 100);
+Sleep (0 ,5);
 
 return 0;}
